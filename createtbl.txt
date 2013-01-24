@@ -1,8 +1,0 @@
-create 'NBAFinal2010', {NAME => 'srv'}, {SPLITS => ['0000', '0900', '1800', '2700', '3600']} 
-disable 'NBAFinal2010' 
-alter 'NBAFinal2010', {METHOD => 'table_att', MAX_FILESIZE => '10737418240'} 
-enable 'NBAFinal2010'
-
---------------------
-
-create 'datatsv', {NAME=>'m'}

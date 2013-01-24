@@ -2,6 +2,8 @@ Map Reduce Example for:
 
 http://hbase.apache.org/book.html#arch.bulk.load
 
+0 ) Include all libraries from lib/
+
 1 ) Export project's JAR to bulk.jar
 
 2 ) Copy file1.txt to hdfs
